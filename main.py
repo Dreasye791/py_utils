@@ -1,6 +1,7 @@
 import csv
 import sql_utils
 
+# 通过 csv 数据，生成执行 sql：批量修改表字段类型、批量更新表字段的数据
 with open('source.csv', mode='r', newline='', encoding='utf-8') as file:
     csv_reader = csv.reader(file)
 
